@@ -2,14 +2,14 @@
   "name": "fea-1",
   "description": "Mu fea",
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://framanmag.com",
   "main": "src",
   "keywords": [
     "feathers"
   ],
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Francisco Manzano",
+    "email": "keoh77@gmail.com"
   },
   "contributors": [],
   "bugs": {},
@@ -24,7 +24,7 @@
   "scripts": {
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
-    "start": "node src/",
+    "start": "nodemon src/",
     "mocha": "mocha test/ --recursive --exit"
   },
   "dependencies": {
@@ -38,6 +38,7 @@
     "feathers-hooks-common": "^3.10.0",
     "feathers-rest": "^1.8.1",
     "helmet": "^3.9.0",
+    "nodemon": "^1.12.1",
     "serve-favicon": "^2.4.5",
     "winston": "^2.4.0"
   },
